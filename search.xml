@@ -5,10 +5,10 @@
     
     <entry>
       <title>let、const命令</title>
-      <link href="/2021/11/08/es6/"/>
-      <url>/2021/11/08/es6/</url>
+      <link href="/2021/11/20/es6/"/>
+      <url>/2021/11/20/es6/</url>
       
-        <content type="html"><![CDATA[<h1 id="ES6"><a href="#ES6" class="headerlink" title="ES6"></a>ES6</h1><h4 id="let、const命令"><a href="#let、const命令" class="headerlink" title="let、const命令"></a>let、const命令</h4><p>使用两个空格加一个回车进行换行  </p><p>使用let声明变量，不能重复声明<br>图片</p><p><img src="/ES6.assets/chenMu.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="ES6"><a href="#ES6" class="headerlink" title="ES6"></a>ES6</h1><h4 id="let、const命令"><a href="#let、const命令" class="headerlink" title="let、const命令"></a>let、const命令</h4><p>使用两个空格加一个回车进行换行  </p><p>使用let声明变量，不能重复声明<br>图片</p><p><img src="ES6.assets/chenMu.jpg"></p>]]></content>
       
       
       
@@ -27,7 +27,7 @@
       <link href="/2020/06/05/hellodemo/"/>
       <url>/2020/06/05/hellodemo/</url>
       
-        <content type="html"><![CDATA[<h1 id="hello-demo-创建"><a href="#hello-demo-创建" class="headerlink" title="hello demo 创建"></a>hello demo 创建</h1><p><img src="/newSting.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="hello-demo-创建"><a href="#hello-demo-创建" class="headerlink" title="hello demo 创建"></a>hello demo 创建</h1><p><img src="newSting.jpg"></p>]]></content>
       
       
       
@@ -40,7 +40,7 @@
       <link href="/2020/06/05/index3/"/>
       <url>/2020/06/05/index3/</url>
       
-        <content type="html"><![CDATA[<h1 id="hexo-创建"><a href="#hexo-创建" class="headerlink" title="hexo 创建"></a>hexo 创建</h1><p><img src="/newSting.jpg"></p><h2 id="hexo-创建-1"><a href="#hexo-创建-1" class="headerlink" title="hexo 创建"></a>hexo 创建</h2><h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><h2 id="Javascript-1"><a href="#Javascript-1" class="headerlink" title="Javascript"></a>Javascript</h2><h2 id="Javascript-2"><a href="#Javascript-2" class="headerlink" title="Javascript"></a>Javascript</h2><h2 id="Javascript-3"><a href="#Javascript-3" class="headerlink" title="Javascript"></a>Javascript</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="hexo-创建"><a href="#hexo-创建" class="headerlink" title="hexo 创建"></a>hexo 创建</h1><p><img src="newSting.jpg"></p><h2 id="hexo-创建-1"><a href="#hexo-创建-1" class="headerlink" title="hexo 创建"></a>hexo 创建</h2><h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><h2 id="Javascript-1"><a href="#Javascript-1" class="headerlink" title="Javascript"></a>Javascript</h2><h2 id="Javascript-2"><a href="#Javascript-2" class="headerlink" title="Javascript"></a>Javascript</h2><h2 id="Javascript-3"><a href="#Javascript-3" class="headerlink" title="Javascript"></a>Javascript</h2>]]></content>
       
       
       
