@@ -4,19 +4,26 @@
   
     
     <entry>
-      <title>let、const命令</title>
-      <link href="/2021/11/20/es6/"/>
-      <url>/2021/11/20/es6/</url>
+      <title>image</title>
+      <link href="/2021/11/08/image/"/>
+      <url>/2021/11/08/image/</url>
       
-        <content type="html"><![CDATA[<h1 id="ES6"><a href="#ES6" class="headerlink" title="ES6"></a>ES6</h1><h4 id="let、const命令"><a href="#let、const命令" class="headerlink" title="let、const命令"></a>let、const命令</h4><p>使用两个空格加一个回车进行换行  </p><p>使用let声明变量，不能重复声明<br><img src="https://github.com/chenMu77/chenMu77.github.io/blob/main/images/chenMu.jpg?raw=true" alt="chenMu.jpg"><br>使用let声明变量，不能重复声明<br>使用let声明变量，不能重复声明</p><p>2</p>]]></content>
+        <content type="html"><![CDATA[<img src="/2021/11/08/image/he.jpg" class="">]]></content>
       
       
       
-        <tags>
-            
-            <tag> ES6 </tag>
-            
-        </tags>
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2021/11/08/es6/"/>
+      <url>/2021/11/08/es6/</url>
+      
+        <content type="html"><![CDATA[<p>title: let、const命令<br>date: 2021/11/20<br>tags: ES6</p><h1 id="ES6"><a href="#ES6" class="headerlink" title="ES6"></a>ES6</h1><h4 id="let、const命令"><a href="#let、const命令" class="headerlink" title="let、const命令"></a>let、const命令</h4><p>使用两个空格加一个回车进行换行  </p><p>使用let声明变量，不能重复声明<br><img src="ES6.assets/chenMu-16363819922712.jpg" alt="chenMu">to insert chenMu.jpg<br>使用let声明变量，不能重复声明<br>使用let声明变量，不能重复声明</p><p>2</p>]]></content>
+      
+      
       
     </entry>
     
