@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaScript_2, chenMu">
+    <meta name="keywords" content="JS基础篇二, chenMu">
     <meta name="description" content="P-46.JS_使用工厂方法创建对象
 
 P-47.JS_构造函数1）使用工厂方法创建的对象，使用的构造函数都是Object，所以创建的对象都是Object这个类型，就导致我们无法区分多种不同的类型的对象
@@ -20,7 +20,7 @@ P-47.JS_构造函数1）使用工厂方法创建的对象，使用的构造函�
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaScript_2 | chenMu</title>
+    <title>JS基础篇二 | chenMu</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -290,12 +290,12 @@ P-47.JS_构造函数1）使用工厂方法创建的对象，使用的构造函�
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaScript_2</h1>
+                    <h1 class="description center-align post-title">JS基础篇二</h1>
                 </div>
             </div>
         </div>
@@ -436,7 +436,7 @@ P-47.JS_构造函数1）使用工厂方法创建的对象，使用的构造函�
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.8k
+                    2.3k
                 </div>
                 
 
@@ -537,6 +537,36 @@ P-47.JS_构造函数1）使用工厂方法创建的对象，使用的构造函�
 <img src="/2020/05/20/hexo-bolg3/js_69.jpg" class="">
 
 <p>3）unshift（）该方法向数组开头添加一个或多个元素，并返回新得到数组长度，向前边插入元素以后，其他的元素索引会依此调整</p>
+<img src="/2020/05/20/hexo-bolg3/js_70.jpg" class="">
+
+<p>4）shift（）该方法可以删除数组的第一个元素，并将被删除的元素作为返回值返回</p>
+<img src="/2020/05/20/hexo-bolg3/js_71.jpg" class="">
+
+<h4 id="P-54-JS-数组的遍历"><a href="#P-54-JS-数组的遍历" class="headerlink" title="P-54.JS_数组的遍历"></a>P-54.JS_数组的遍历</h4><p>1）所谓的遍历，就是将数组中的所有元素都取出来</p>
+<img src="/2020/05/20/hexo-bolg3/js_72.jpg" class="">
+
+<h4 id="P-55-JS-数组的练习"><a href="#P-55-JS-数组的练习" class="headerlink" title="P-55.JS_数组的练习"></a>P-55.JS_数组的练习</h4><img src="/2020/05/20/hexo-bolg3/js_73.jpg" class="">
+
+<h4 id="P-56-JS-数组的foEach"><a href="#P-56-JS-数组的foEach" class="headerlink" title="P-56.JS_数组的foEach"></a>P-56.JS_数组的foEach</h4><p>1）一般我们都是使用for循环去遍历数组，JS中还为我们提供了一个方法，用来遍历数组forEach（），这个方法只支持IE8以上版本；IE8及以下版本均不支持该方法，所以需要兼容IE8，则不要使用foEach（）方法，还是使用for循环来遍历</p>
+<p>2）fonEach（）方法需要一个函数作为参数，像这种函数，由我们创建但是不由我们调用的，我们称为回调函数，数组中有几个元素，函数就会执行几次，每次执行时，浏览器会将遍历到的元素以实参的形式进行传递进来，我们定义形参，来读取这些内容，浏览器会在回调函数中传递三个参数</p>
+<img src="/2020/05/20/hexo-bolg3/js_74.jpg" class="">
+
+<h4 id="P-57-JS-slice和splice"><a href="#P-57-JS-slice和splice" class="headerlink" title="P-57.JS_slice和splice"></a>P-57.JS_slice和splice</h4><p>1）slice（）可以从数组提取指定元素，该方法不会改变元素数组，而是将截取到的元素封装到一个新数组中返回</p>
+<p>​    参数：</p>
+<p>​                第1个参数，截取开始的位置的索引，包含开始索引</p>
+<p>​                第2个参数，截取结束的位置的索引，不包含结束索引</p>
+<p>​    1、第二个参数可以省略不写，此时截取从开始索引往后的所有元素</p>
+<img src="/2020/05/20/hexo-bolg3/js_75.jpg" class="">
+
+<p>​    2、索引可以传递一个负值，如果传递一个负值，则从后往前计算</p>
+<img src="/2020/05/20/hexo-bolg3/js_76.jpg" class="">
+
+<p>2）splice（）可以用于删除数组中的指定元素，使用splice（）会影响到原数组，会将指定元素从原数组中删除 ，并将删除的元素作为返回值返回</p>
+<p>参数：</p>
+<p>​                第1个参数，表示开始位置的索引</p>
+<p>​                第2个参数，表示删除的数量</p>
+<p>​                第3个及以后……可以传递一些新的元素，这些元素将会自动插入到开始位置索引前边 </p>
+<h4 id="P-58-JS-数组去重练习"><a href="#P-58-JS-数组去重练习" class="headerlink" title="P-58.JS_数组去重练习"></a>P-58.JS_数组去重练习</h4><img src="/2020/05/20/hexo-bolg3/js_77.jpg" class="">
 
                 
             </div>
@@ -831,9 +861,9 @@ P-47.JS_构造函数1）使用工厂方法创建的对象，使用的构造函�
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="JavaScript">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="JS基础篇">
                         
-                        <span class="card-title">JavaScript</span>
+                        <span class="card-title">JS基础篇</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
