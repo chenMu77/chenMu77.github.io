@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>死磕JS_数据类型</title>
+      <link href="/2021/01/16/hexo-bolg8/"/>
+      <url>/2021/01/16/hexo-bolg8/</url>
+      
+        <content type="html"><![CDATA[<h4 id="P-1-JS数据类型"><a href="#P-1-JS数据类型" class="headerlink" title="P-1.JS数据类型"></a>P-1.JS数据类型</h4><p>1）数据类型一共可分为8种：String、Number、Boolean、Null、undefined、Object、Symbol、BigInt</p><p>2）在ES5的时候，基本数据类型是6种，分别是：String、Number、Boolean、Null、undefined、Object</p><img src="/2021/01/16/hexo-bolg8/js_01.png" class=""><p>3）基本（值）类型:String、Number、Boolean、Null、undefined</p><p>4）对象（引用）类型：Object，其中还包含了Date、function、Array（常见）</p><img src="/2021/01/16/hexo-bolg8/js_02.png" class=""><p>5）ES6引入了一种新的原始数据类型Symbol，表示独一无二的值。它是JavaScript语言的第七种数据类型，是一种类似字符串的数据类型 。</p><p>Symbol特点：</p><ol><li>Symbol的值是唯一的，用来解决命名冲突的问题</li><li>Symbol值不能与其他数据进行运算</li><li>Symbol定义的的对象属性不能使用for…in循环遍历，但是可以使用Reflect.ownKeys来获取对象的所有建名</li></ol><p>6）BigInt 是一种特殊的数字类型，它支持任意长度的整数</p><h4 id="2-数据类型判断"><a href="#2-数据类型判断" class="headerlink" title="2.数据类型判断"></a>2.数据类型判断</h4><p>typeof：</p><p>​        返回数据类型的字符串表达式</p><p>​        可以判断：undefined、数值、字符串、布尔值</p><p>​        不可以判断：null、object</p><p>instanceof：</p><p>​        可以判断对象的具体类型</p><p>===：</p><p>​        可以判断：undefined，unll</p><h4 id="3-相关问题"><a href="#3-相关问题" class="headerlink" title="3.相关问题"></a>3.相关问题</h4><p>1）undefined与null的区别</p><p>​        undefined代表未定义未赋值</p><p>​        null定义并赋值了，只是值为null</p><img src="/2021/01/16/hexo-bolg8/js_03.png" class=""><p>2）什么时候给变量赋值为null</p><p>​    初始值，表明将要赋值为对象</p><p>​    结束前，让对象成为垃圾对象（被垃圾回收器回收）</p><img src="/2021/01/16/hexo-bolg8/js_04.png" class="">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>绘制三角形</title>
       <link href="/2020/06/11/hexo-blog2/"/>
       <url>/2020/06/11/hexo-blog2/</url>

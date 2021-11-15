@@ -4,11 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="绘制三角形, chenMu">
-    <meta name="description" content="绘制三角形练习1.) 使用CSS中的盒模型（border）绘制三角形，实现效果：
-
-
-2.) 知识误区，（border）元素是由三角形组成，而并非矩形，为证明，将我们平时所使用的语法列出，在学习（border）时，通常为设置1px，且颜色单">
+    <meta name="keywords" content="死磕JS_数据类型, chenMu">
+    <meta name="description" content="P-1.JS数据类型1）数据类型一共可分为8种：String、Number、Boolean、Null、undefined、Object、Symbol、BigInt
+2）在ES5的时候，基本数据类型是6种，分别是：String、Number、">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>绘制三角形 | chenMu</title>
+    <title>死磕JS_数据类型 | chenMu</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -290,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">绘制三角形</h1>
+                    <h1 class="description center-align post-title">死磕JS_数据类型</h1>
                 </div>
             </div>
         </div>
@@ -411,12 +409,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/HTML/">
-                                <span class="chip bg-color">HTML</span>
-                            </a>
-                        
-                            <a href="/tags/CSS/">
-                                <span class="chip bg-color">CSS</span>
+                            <a href="/tags/JavaScript/">
+                                <span class="chip bg-color">JavaScript</span>
                             </a>
                         
                     </div>
@@ -431,7 +425,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-11
+                    2021-01-16
                 </div>
                 
 
@@ -440,7 +434,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    212
+                    356
                 </div>
                 
 
@@ -457,18 +451,39 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h4 id="绘制三角形练习"><a href="#绘制三角形练习" class="headerlink" title="绘制三角形练习"></a>绘制三角形练习</h4><p>1.) 使用CSS中的盒模型（border）绘制三角形，实现效果：</p>
-<img src="/2020/06/11/hexo-blog2/css_01.png" class="">
+                <h4 id="P-1-JS数据类型"><a href="#P-1-JS数据类型" class="headerlink" title="P-1.JS数据类型"></a>P-1.JS数据类型</h4><p>1）数据类型一共可分为8种：String、Number、Boolean、Null、undefined、Object、Symbol、BigInt</p>
+<p>2）在ES5的时候，基本数据类型是6种，分别是：String、Number、Boolean、Null、undefined、Object</p>
+<img src="/2021/01/16/hexo-bolg8/js_01.png" class="">
 
-<p>2.) 知识误区，（border）元素是由三角形组成，而并非矩形，为证明，将我们平时所使用的语法列出，在学习（border）时，通常为设置1px，且颜色单一，很难从视觉效果上了解（border）的形成方式，从而产生了误解。因此将（border）设置为30px，效果图为：box2。</p>
-<img src="/2020/06/11/hexo-blog2/css_02.png" class="">
+<p>3）基本（值）类型:String、Number、Boolean、Null、undefined</p>
+<p>4）对象（引用）类型：Object，其中还包含了Date、function、Array（常见）</p>
+<img src="/2021/01/16/hexo-bolg8/js_02.png" class="">
 
-<p>3.) 进一步实现三角形绘制，需要知道box是块元素，其默认宽度是100%，所以将把box的宽高强制为0，效果图为box2。</p>
-<img src="/2020/06/11/hexo-blog2/css_03.png" class="">
+<p>5）ES6引入了一种新的原始数据类型Symbol，表示独一无二的值。它是JavaScript语言的第七种数据类型，是一种类似字符串的数据类型 。</p>
+<p>Symbol特点：</p>
+<ol>
+<li>Symbol的值是唯一的，用来解决命名冲突的问题</li>
+<li>Symbol值不能与其他数据进行运算</li>
+<li>Symbol定义的的对象属性不能使用for…in循环遍历，但是可以使用Reflect.ownKeys来获取对象的所有建名</li>
+</ol>
+<p>6）BigInt 是一种特殊的数字类型，它支持任意长度的整数</p>
+<h4 id="2-数据类型判断"><a href="#2-数据类型判断" class="headerlink" title="2.数据类型判断"></a>2.数据类型判断</h4><p>typeof：</p>
+<p>​        返回数据类型的字符串表达式</p>
+<p>​        可以判断：undefined、数值、字符串、布尔值</p>
+<p>​        不可以判断：null、object</p>
+<p>instanceof：</p>
+<p>​        可以判断对象的具体类型</p>
+<p>===：</p>
+<p>​        可以判断：undefined，unll</p>
+<h4 id="3-相关问题"><a href="#3-相关问题" class="headerlink" title="3.相关问题"></a>3.相关问题</h4><p>1）undefined与null的区别</p>
+<p>​        undefined代表未定义未赋值</p>
+<p>​        null定义并赋值了，只是值为null</p>
+<img src="/2021/01/16/hexo-bolg8/js_03.png" class="">
 
-<p>4.) 据效果图box2所示：（border）是由top，right，bottom，left，4个三角形组成，当我们对其另外3个三角形进行隐藏时，最终保留下来的就是所需要的三角形。</p>
-<img src="/2020/06/11/hexo-blog2/css_04.png" class="">
-
+<p>2）什么时候给变量赋值为null</p>
+<p>​    初始值，表明将要赋值为对象</p>
+<p>​    结束前，让对象成为垃圾对象（被垃圾回收器回收）</p>
+<img src="/2021/01/16/hexo-bolg8/js_04.png" class="">
 
                 
             </div>
@@ -495,7 +510,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://chenMu77.giehub.io/2020/06/11/hexo-blog2/">http://chenMu77.giehub.io/2020/06/11/hexo-blog2/</a>
+                    <a href="http://chenMu77.giehub.io/2021/01/16/hexo-bolg8/">http://chenMu77.giehub.io/2021/01/16/hexo-bolg8/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -533,12 +548,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/HTML/">
-                                    <span class="chip bg-color">HTML</span>
-                                </a>
-                            
-                                <a href="/tags/CSS/">
-                                    <span class="chip bg-color">CSS</span>
+                                <a href="/tags/JavaScript/">
+                                    <span class="chip bg-color">JavaScript</span>
                                 </a>
                             
                         </div>
@@ -710,9 +721,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/01/16/hexo-bolg8/">
                     <div class="card-image">
@@ -730,9 +742,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -741,6 +753,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -759,13 +772,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/20/hexo-bolg3/">
+                <a href="/2020/06/11/hexo-blog2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="JS基础篇二">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="绘制三角形">
                         
-                        <span class="card-title">JS基础篇二</span>
+                        <span class="card-title">绘制三角形</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -776,7 +789,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-11
                             </span>
                         <span class="publish-author">
                             
@@ -789,8 +802,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/JavaScript/">
-                        <span class="chip bg-color">JavaScript</span>
+                    <a href="/tags/HTML/">
+                        <span class="chip bg-color">HTML</span>
+                    </a>
+                    
+                    <a href="/tags/CSS/">
+                        <span class="chip bg-color">CSS</span>
                     </a>
                     
                 </div>
