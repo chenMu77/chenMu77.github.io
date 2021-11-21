@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="死磕JS_数据类型, chenMu">
-    <meta name="description" content="JS数据类型1）数据类型一共可分为8种：String、Number、Boolean、Null、undefined、Object、Symbol、BigInt
-2）在ES5的时候，基本数据类型是6种，分别是：String、Number、Bool">
+    <meta name="keywords" content="JS_数据类型进阶, chenMu">
+    <meta name="description" content="1.JS数据类型1）数据类型一共可分为8种：String、Number、Boolean、Null、undefined、Object、Symbol、BigInt
+2）在ES5的时候，基本数据类型是6种，分别是：String、Number、Bo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>死磕JS_数据类型 | chenMu</title>
+    <title>JS_数据类型进阶 | chenMu</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">死磕JS_数据类型</h1>
+                    <h1 class="description center-align post-title">JS_数据类型进阶</h1>
                 </div>
             </div>
         </div>
@@ -434,7 +434,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    401
+                    1.3k
                 </div>
                 
 
@@ -454,14 +454,88 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h4 id="JS数据类型"><a href="#JS数据类型" class="headerlink" title="JS数据类型"></a>JS数据类型</h4><p>1）数据类型一共可分为8种：String、Number、Boolean、Null、undefined、Object、Symbol、BigInt</p>
+                <h4 id="1-JS数据类型"><a href="#1-JS数据类型" class="headerlink" title="1.JS数据类型"></a>1.JS数据类型</h4><p>1）数据类型一共可分为8种：String、Number、Boolean、Null、undefined、Object、Symbol、BigInt</p>
 <p>2）在ES5的时候，基本数据类型是6种，分别是：String、Number、Boolean、Null、undefined、Object</p>
-<img src="/2021/01/16/hexo-bolg8/js_01.png" class="">
-
+<table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">值</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">String</td>
+<td align="center">“abcd”</td>
+<td align="center">任意字符串</td>
+</tr>
+<tr>
+<td align="center">Number</td>
+<td align="center">12.3</td>
+<td align="center">任意的数字</td>
+</tr>
+<tr>
+<td align="center">Boolean</td>
+<td align="center">true、false</td>
+<td align="center">布尔型</td>
+</tr>
+<tr>
+<td align="center">undefined</td>
+<td align="center">undefined</td>
+<td align="center">未定义（没有初始化）</td>
+</tr>
+<tr>
+<td align="center">Null</td>
+<td align="center">Null</td>
+<td align="center">不存在的对象</td>
+</tr>
+<tr>
+<td align="center">Object</td>
+<td align="center">Object</td>
+<td align="center">任意对象</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
 <p>3）基本（值）类型:String、Number、Boolean、Null、undefined</p>
 <p>4）对象（引用）类型：Object，其中还包含了Date、function、Array（常见）</p>
-<img src="/2021/01/16/hexo-bolg8/js_02.png" class=""> 
-
+<table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">被包含</th>
+<th align="center">备注</th>
+<th>输出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Object</td>
+<td align="center"></td>
+<td align="center"></td>
+<td>Object</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">function</td>
+<td align="center">一种特别的对象（可执行）</td>
+<td>Object</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Array</td>
+<td align="center">一种特别的对象（数值下标，内部数据是有序的）</td>
+<td>Object</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td></td>
+</tr>
+</tbody></table>
 <p>5）ES6引入了一种新的原始数据类型Symbol，表示独一无二的值。它是JavaScript语言的第七种数据类型，是一种类似字符串的数据类型 。</p>
 <p>Symbol特点：</p>
 <ol>
@@ -481,49 +555,81 @@
 <h4 id="3-相关问题"><a href="#3-相关问题" class="headerlink" title="3.相关问题"></a>3.相关问题</h4><p>1）undefined与null的区别</p>
 <p>​        undefined代表未定义未赋值</p>
 <p>​        null定义并赋值了，只是值为null</p>
-<img src="/2021/01/16/hexo-bolg8/js_03.png" class="">
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span> <span class="token comment">//初始赋值为null，表明将要赋值为对象，否则无意义</span>
+<span class="token comment">//确定对象就赋值</span>
+a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'确定的对象是一个数组'</span><span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>2）什么时候给变量赋值为null</p>
-<p>​    初始值，表明将要赋值为对象</p>
-<p>​    结束前，让对象成为垃圾对象（被垃圾回收器回收）</p>
-<img src="/2021/01/16/hexo-bolg8/js_04.png" class="">
+<p>​        初始值，表明将要赋值为对象</p>
+<p>​        结束前，让对象成为垃圾对象（被垃圾回收器回收）</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span> <span class="token comment">//初始赋值为null，表明将要赋值为对象，否则无意义</span>
+<span class="token comment">//确定对象就赋值</span>
+a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'确定的对象是一个数组'</span><span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+a <span class="token operator">=</span> <span class="token keyword">null</span> <span class="token comment">//让a指向的对象成为垃圾对象(被垃圾回收器回收)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token parameter">a</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-​      <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token operator">&lt;</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-​        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"未成年，在等等！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-​      <span class="token punctuation">&#125;</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token operator">></span><span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-​        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'算了吧！'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-​      <span class="token punctuation">&#125;</span>
-​      <span class="token keyword">else</span><span class="token punctuation">&#123;</span>
-​        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'刚刚好'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-​      <span class="token punctuation">&#125;</span>
-​    <span class="token punctuation">&#125;</span>
-​    <span class="token function">fun</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>3）严格区分变量类型与数据类型？</p>
+<p>​    数据的类型、基本类型、对象类型</p>
+<p>​    变量的类型（变量内存值的类型）</p>
+<p>​    基本类型：保存就是基本类型的数据</p>
+<p>​    引用类型：保存的是地址值</p>
+<h4 id="4-JS数据-变量-内存"><a href="#4-JS数据-变量-内存" class="headerlink" title="4.JS数据-变量-内存"></a>4.JS数据-变量-内存</h4><p>1）什么是数据？</p>
+<p>存储在内存中代表特定信息的 ‘东西’，本质上是0101…</p>
+<p>数据的特点：可运算，可传递</p>
+<p>一切皆数据</p>
+<p>内存中所有操作的目标：数据</p>
+<p>算数运算、逻辑运算、赋值、运行函数</p>
+<p>2）什么是内存？</p>
+<p>内存产生通电后产生可储存数据的空间（临时的）</p>
+<p>内存产生和死亡：内存条==&gt;通电==&gt;产生内存空间==&gt;存储数据==&gt;处理数据==&gt;断电==&gt;内存空间和数据都消失</p>
+<p>内存分类：</p>
+<p>栈：全局变量、局部变量</p>
+<p>堆：对象</p>
+<p>3）什么是变量</p>
+<p>可变化的量，由变量名和变量值组成</p>
+<p>每个变量都对应的一块小内存，变量名用来查找对应的内存，变量值就是内存中保存的数据</p>
+<p>4）内存，数据，变量三者之间的关系</p>
+<p>内存用来存储数据的空间</p>
+<p>变量是内存的标识</p>
+<h4 id="5-相关问题二"><a href="#5-相关问题二" class="headerlink" title="5.相关问题二"></a>5.相关问题二</h4><p>1）关于赋值和内存的问题</p>
+<p>问题1：var a = xxx; a内存中到底保存的是什么？</p>
+<p>a）xxx是基本数据，保存的就是这个数据</p>
+<p>b）xxx是对象，保存的就是对象的地址值</p>
+<p>c）xxx是一个变量，保存的xxx的内存内容（可能是基本数据，也可能是地址值）</p>
+<p>2）关于引用变量赋值问题</p>
+<p>a）n个引用变量指向同一个对象，通过一个变量修改对象内部数据，其他所有变量看到的是修改之后的数据</p>
+<p>b）2个引用变量指向同一个对象，让其中一个引用变量指向另一个对象，另一引用变量依然指向前一个对象</p>
+<pre class="line-numbers language-JavaScript" data-language="JavaScript"><code class="language-JavaScript">var a&#x3D;&#123;name:&#39;tom&#39;&#125;;
+            var b&#x3D;a;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<table>
-<thead>
-<tr>
-<th>11111111111</th>
-<th>222222222222222333333333333333</th>
-<th>3333333333333333111</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>11</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>2222</td>
-<td>333</td>
-<td>444</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
+<img src="/2021/01/16/hexo-bolg8/js_01.png" class="">
+
+<p>问题2：在js调用函数时传递变量参数时，是值传递还是引用传递</p>
+<p>理解1：都是值（基本/地址值）传递</p>
+<p>理解2：可能是值传递，也可能是引用传递（地址值）</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment">//值传递</span>
+         <span class="token keyword">function</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token parameter">a</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span> <span class="token comment">//引用传递</span>
+             a<span class="token operator">=</span>a<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+             console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+         <span class="token punctuation">&#125;</span>
+         <span class="token function">fn</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+         console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>3）js引擎如何管理内存？</p>
+<p>a）内存生命周期</p>
+<p>分配小内存空间，得到它的使用权</p>
+<p>存储数据，可以反复进行操作</p>
+<p>是否内存空间</p>
+<p>b）释放内存</p>
+<p>局部变量：函数执行完自动释放</p>
+<p>对象：称为垃圾对象==&gt;垃圾回收器回收</p>
+<pre class="line-numbers language-JavaScript" data-language="JavaScript"><code class="language-JavaScript">var a &#x3D; 3;
+         var obj &#x3D;&#123;&#125;
+         obj &#x3D; undefined;
+         function fn() &#123; 
+             var b &#x3D;&#123;&#125;
+         &#125;
+         fn();&#x2F;&#x2F;b是自动释放，b所指向的对象是在后面的某个时刻由垃圾回收器回收<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 
                 
             </div>
@@ -770,9 +876,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="死磕JS_数据类型">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="JS_数据类型进阶">
                         
-                        <span class="card-title">死磕JS_数据类型</span>
+                        <span class="card-title">JS_数据类型进阶</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
